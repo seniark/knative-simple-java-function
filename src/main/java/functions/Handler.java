@@ -18,8 +18,8 @@ path.
 */
 public class Handler implements Function<String,String> {
     @Override
-    public String apply(String name) {
-        System.out.printf("Hello" + name);
-        return "Hello " + name;
+    public String apply(String thing) {
+        System.out.printf("Test " + thing);
+        return "Test " + thing;
     }
 }
